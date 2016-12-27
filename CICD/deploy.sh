@@ -1,5 +1,5 @@
 msg=$1
-if [ -z $msg ]
+if [ -z "$msg" ]
 then
     msg="deploy"
 fi
