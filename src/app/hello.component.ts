@@ -2,10 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'hello',
-    template: `
-        <h1>Hello, {{name}}!</h1>
-        Say hello to: <input [value]="name" (input)="name = $event.target.value">
-    `
+    templateUrl: './hello.component.html',
+    styleUrls: ['./hello.component.css']
 })
 export class HelloComponent {
     name: string = 'World';
